@@ -8,10 +8,10 @@ if(str==null||str.length==0){
 	}
 	let ans=[]
 	let temp=""
-	for(let i=0;i<str.lenght;i++){
+	for(let i=0;i<str.length;i++){
 		temp+=str.charAt(i)
 		if(temp.length==size){
-			ans.oush(temp)
+			ans.push(temp)
 			temp=""
 		}
 	}
